@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -27,7 +27,7 @@
 <meta property="og:url" content="https://chenjinsongcjs.github.io/2022/08/28/JUC%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/index.html">
 <meta property="og:site_name" content="Technological learning">
 <meta property="og:description" content="JUC基础部分1、什么是JUC JUC指java类库中的三个包  java.util.concurrent  java.util.concurrent.atomic  java.util.concurrent.locks     2、线程和进程 线程：程序执行和调度的基本单位，线程隶属于进程。  进程：资源分配的单位，一个进程可以有一个和多个线程。  java程序的线程与操作系统的线程一一映射，j">
-<meta property="og:locale">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/21698573/1622638828892-c8d8b564-ad70-42ae-aa09-657c5ec4e7a4.png#align=left&display=inline&height=100&margin=[object%20Object]&name=image.png&originHeight=199&originWidth=1453&size=24487&status=done&style=none&width=726.5">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/21698573/1622652435166-601da532-c9e6-4e16-bf6b-8395c4309f89.png#align=left&display=inline&height=563&margin=[object%20Object]&name=image.png&originHeight=1126&originWidth=1527&size=281527&status=done&style=none&width=763.5">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/21698573/1622656599295-95087164-4218-4699-9896-6358e2670c10.png#align=left&display=inline&height=234&margin=[object%20Object]&name=image.png&originHeight=468&originWidth=1454&size=343567&status=done&style=none&width=727">
@@ -53,7 +53,7 @@
     sidebar: "",
     isHome : false,
     isPost : true,
-    lang   : 'zh'
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -97,7 +97,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Navigationsleiste an/ausschalten">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -127,26 +127,26 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Startseite</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archiv<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">4</span></a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Schlagwörter<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Kategorien<span class="badge">0</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">0</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Suche
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -162,7 +162,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off"
-           placeholder="Suche..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close">
@@ -201,11 +201,11 @@
     
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://chenjinsongcjs.github.io/2022/08/28/JUC%E5%9F%BA%E7%A1%80%E9%83%A8%E5%88%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar_1.png">
       <meta itemprop="name" content="cjsstart">
       <meta itemprop="description" content="">
     </span>
@@ -223,18 +223,18 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
+              <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="Erstellt: 2022-08-28 19:25:15 / Geändert am: 19:25:29" itemprop="dateCreated datePublished" datetime="2022-08-28T19:25:15+08:00">2022-08-28</time>
+              <time title="创建时间：2022-08-28 19:25:15 / 修改时间：19:25:29" itemprop="dateCreated datePublished" datetime="2022-08-28T19:25:15+08:00">2022-08-28</time>
             </span>
 
           
-            <span class="post-meta-item" title="Aufrufe" id="busuanzi_container_page_pv" style="display: none;">
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
-              <span class="post-meta-item-text">Aufrufe: </span>
+              <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
             </span>
 
@@ -699,10 +699,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Inhaltsverzeichnis
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Übersicht
+          站点概览
         </li>
       </ul>
 
@@ -715,7 +715,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="cjsstart"
-      src="/images/avatar.gif">
+      src="/images/avatar_1.png">
   <p class="site-author-name" itemprop="name">cjsstart</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -725,12 +725,12 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">4</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">schlagwörter</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
@@ -762,7 +762,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">cjsstart</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
@@ -772,7 +772,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
       </span>
-      <span class="site-uv" title="Alle Besucher">
+      <span class="site-uv" title="总访客量">
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
@@ -781,7 +781,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
       </span>
-      <span class="site-pv" title="Alle Aufrufe">
+      <span class="site-pv" title="总访问量">
         <span id="busuanzi_value_site_pv"></span>
       </span>
     </span>

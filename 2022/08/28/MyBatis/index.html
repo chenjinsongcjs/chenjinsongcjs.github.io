@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -27,7 +27,7 @@
 <meta property="og:url" content="https://chenjinsongcjs.github.io/2022/08/28/MyBatis/index.html">
 <meta property="og:site_name" content="Technological learning">
 <meta property="og:description" content="MyBatis一、MyBatis简介 MyBatis是支持定制化SQL，存储过程以及高级映射的持久层框架  MyBatis避免了几乎所有的JDBC代码和手动设置参数以及获取结果集  MyBatis可使用简单的XML或注解用于配置和原始映射，将接口和java 的POJO映射成数据库中的记录   1、为什么要用MyBatis MyBatis是一个半自动化的持久层框架  JDBC  SQL加载java代">
-<meta property="og:locale">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/21698573/1630380937673-2f5a96bd-572e-4fb9-af94-af0746d4a4ca.png#clientId=u725fc5f1-2140-4&from=paste&height=487&id=u0e7fc775&margin=[object%20Object]&name=image.png&originHeight=974&originWidth=1724&originalType=binary&ratio=1&size=1051261&status=done&style=none&taskId=u3669d689-3cfc-4b46-9a33-da6e1435e45&width=862">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/21698573/1630381085891-853aed15-5746-4497-a72e-3201d303fd57.png#clientId=u725fc5f1-2140-4&from=paste&height=364&id=u63eed7db&margin=[object%20Object]&name=image.png&originHeight=728&originWidth=1009&originalType=binary&ratio=1&size=177219&status=done&style=none&taskId=u5f52c695-4201-47d6-874d-8294a6909b8&width=504.5">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/21698573/1630383005900-1e99282d-d33d-499e-87fb-4df53c026cd5.png#clientId=u725fc5f1-2140-4&from=paste&height=270&id=u22972fc2&margin=[object%20Object]&name=image.png&originHeight=540&originWidth=1129&originalType=binary&ratio=1&size=264618&status=done&style=none&taskId=u351275a3-ae56-49f2-b082-c853775d97e&width=564.5">
@@ -48,7 +48,7 @@
     sidebar: "",
     isHome : false,
     isPost : true,
-    lang   : 'zh'
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -92,7 +92,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Navigationsleiste an/ausschalten">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -122,26 +122,26 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Startseite</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archiv<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">4</span></a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Schlagwörter<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Kategorien<span class="badge">0</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">0</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Suche
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -157,7 +157,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off"
-           placeholder="Suche..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close">
@@ -196,11 +196,11 @@
     
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://chenjinsongcjs.github.io/2022/08/28/MyBatis/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar_1.png">
       <meta itemprop="name" content="cjsstart">
       <meta itemprop="description" content="">
     </span>
@@ -218,18 +218,18 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
+              <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="Erstellt: 2022-08-28 19:23:04 / Geändert am: 19:23:26" itemprop="dateCreated datePublished" datetime="2022-08-28T19:23:04+08:00">2022-08-28</time>
+              <time title="创建时间：2022-08-28 19:23:04 / 修改时间：19:23:26" itemprop="dateCreated datePublished" datetime="2022-08-28T19:23:04+08:00">2022-08-28</time>
             </span>
 
           
-            <span class="post-meta-item" title="Aufrufe" id="busuanzi_container_page_pv" style="display: none;">
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
-              <span class="post-meta-item-text">Aufrufe: </span>
+              <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
             </span>
 
@@ -2061,10 +2061,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Inhaltsverzeichnis
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Übersicht
+          站点概览
         </li>
       </ul>
 
@@ -2077,7 +2077,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="cjsstart"
-      src="/images/avatar.gif">
+      src="/images/avatar_1.png">
   <p class="site-author-name" itemprop="name">cjsstart</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -2087,12 +2087,12 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">4</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">schlagwörter</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
@@ -2124,7 +2124,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">cjsstart</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
@@ -2134,7 +2134,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
       </span>
-      <span class="site-uv" title="Alle Besucher">
+      <span class="site-uv" title="总访客量">
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
@@ -2143,7 +2143,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
       </span>
-      <span class="site-pv" title="Alle Aufrufe">
+      <span class="site-pv" title="总访问量">
         <span id="busuanzi_value_site_pv"></span>
       </span>
     </span>
